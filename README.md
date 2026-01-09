@@ -11,3 +11,10 @@
 9. git add .         
 10. git commit -m "Add project files"
 11. git push -u origin main
+
+## gitigore 파일 중 하나 올리기 (예: report.pdf)
+1. .gitignore 맨아래에 추가    !Report.pdf
+2. git add .gitignore
+3. git add Report.pdf
+4. git commit -m "Add project report PDF"
+5. git push
