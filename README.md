@@ -4,6 +4,7 @@
 3. git init
 4. touch .gitignore
 5. <<gitignore 복붙하기>>
+"""
 ################################
 # OS / Editor
 ################################
@@ -63,6 +64,7 @@ data/
 ################################
 *.log
 *.tmp
+"""
 
 6. git add .gitignore README.md
 7. git commit -m "Initial commit with gitignore"
